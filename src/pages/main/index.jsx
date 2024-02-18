@@ -8,6 +8,8 @@ const MainPage = () => {
 
   console.log(window.location.pathname);
 
+  const accessToken = localStorage.getItem("accessToken");
+
   useEffect(() => {
     if (location.pathname === "/") {
       const script = document.createElement("script");
@@ -26,6 +28,18 @@ const MainPage = () => {
     <>
       <S.MainWrapper>
         <Header />
+
+        {!accessToken ? (
+          <S.ImgContainer>
+            <div>
+              <span>당신의 꿈을 현실로 만들어주는</span>
+              <span>특별한 서비스 드리밍</span>
+            </div>
+            <S.StartButton onClick={() => (window.location.href = "signin")}>
+              꿈꾸러 가기
+            </S.StartButton>
+          </S.ImgContainer>
+        ) : null}
       </S.MainWrapper>
     </>
   );
