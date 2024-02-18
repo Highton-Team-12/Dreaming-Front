@@ -7,7 +7,7 @@ const Header = () => {
 
   const accessToken = localStorage.getItem("accessToken");
 
-  return !accessToken ? (
+  return accessToken ? (
     <S.HeaderWrapper>
       <S.HeaderContainer>
         <S.LogoContainer onClick={() => navigate(`/`)}>
@@ -32,12 +32,12 @@ const Header = () => {
           </S.MenuWrapper>
         </S.MenuContainer>
         <S.LoginContainer>
-          <S.LoginItem onClick={() => (window.location.href = "signin")}>
+          {/* <S.LoginItem onClick={() => (window.location.href = "signin")}>
             로그인
           </S.LoginItem>
           <S.LoginItem onClick={() => (window.location.href = "signup")}>
             회원가입
-          </S.LoginItem>
+          </S.LoginItem> */}
         </S.LoginContainer>
       </S.HeaderContainer>
     </S.HeaderWrapper>
