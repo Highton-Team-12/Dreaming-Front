@@ -23,7 +23,7 @@ export const ProfileDot = styled.div`
   border: 0.1875rem solid #788cf4;
   width: 11.375rem;
   height: 11.375rem;
-  margin-left: 157px;
+  margin-left: 9.8125rem;
   margin-top: 6.875rem;
 
   svg {
@@ -49,7 +49,7 @@ export const BackGroundColor = styled.div`
 
 export const MenuContainer = styled.div`
   width: 100%;
-  height: 600px;
+  height: 37.5rem;
   background-color: #11111a;
 `;
 
@@ -65,7 +65,7 @@ export const NickNameContainer = styled.div`
     font-size: 1.5625rem;
     font-weight: bold;
     position: relative;
-    left: 1px;
+    left: 0.0625rem;
   }
 `;
 
@@ -79,10 +79,10 @@ export const AdminComment = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 4.375rem;
 
   span {
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 600;
   }
 `;
@@ -90,14 +90,14 @@ export const AdminComment = styled.div`
 export const AdminOutItem = styled.button`
   color: white;
   font-weight: bold;
-  font-size: 17px;
-  width: 400px;
-  height: 40px;
+  font-size: 1.0625rem;
+  width: 25rem;
+  height: 2.5rem;
   background-color: #c55151;
   outline: none;
   border: 0;
-  border-radius: 6px;
-  margin-top: 300px;
+  border-radius: 0.375rem;
+  margin-top: 18.75rem;
 
   &:hover {
     opacity: 90%;

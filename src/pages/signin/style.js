@@ -26,7 +26,7 @@ export const LogoContainer = styled.div`
 
 export const InputContainer = styled.div`
   width: 100%;
-  height: 200px;
+  height: 12.5rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;

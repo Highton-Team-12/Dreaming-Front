@@ -12,11 +12,11 @@ export const ImgContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 46px;
-  margin-top: 330px;
+  gap: 2.875rem;
+  margin-top: 20.625rem;
 
   span {
-    font-size: 48px;
+    font-size: 3rem;
     color: white;
     font-weight: 500;
     display: flex;
@@ -25,17 +25,17 @@ export const ImgContainer = styled.div`
 `;
 
 export const StartButton = styled.button`
-  width: 499.46px;
-  height: 83px;
-  color: 23.3px;
+  width: 31.2162rem;
+  height: 5.1875rem;
+  color: 1.4563rem;
   background-color: #2e2e3c;
   border: 0;
-  border-radius: 23.3px;
-  font-size: 20.3px;
+  border-radius: 1.4563rem;
+  font-size: 1.2688rem;
   font-weight: 700;
   color: white;
 
   &:hover {
-    border: 2px solid #788cf4;
+    border: 0.125rem solid #788cf4;
   }
 `;

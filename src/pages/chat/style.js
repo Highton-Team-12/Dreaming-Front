@@ -9,12 +9,12 @@ export const NoticeWrapper = styled.div`
 `;
 
 export const NoticeContainer = styled.div`
-  width: 800px;
-  height: 700px;
+  width: 50rem;
+  height: 43.75rem;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  padding: 60px;
+  gap: 1.875rem;
+  padding: 3.75rem;
 `;
 
 export const NoticeTitleContainer = styled.div`
@@ -22,7 +22,7 @@ export const NoticeTitleContainer = styled.div`
 `;
 
 export const NoticeTitle = styled.div`
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   color: white;
 `;
@@ -34,38 +34,38 @@ export const NoticeItemContainer = styled.div`
 
 export const NoticeItem = styled.div`
   color: black;
-  height: 140px;
+  height: 8.75rem;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid grey;
+  border-bottom: 0.0625rem solid grey;
   opacity: 70%;
   cursor: pointer;
 `;
 
 export const NoticeImg = styled.img`
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   background-color: black;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 `;
 
 export const NoticeMenu = styled.div`
   width: 100%;
-  height: 40px;
+  height: 2.5rem;
   display: flex;
   align-items: center;
-  text-indent: 10px;
-  font-size: 20px;
+  text-indent: 0.625rem;
+  font-size: 1.25rem;
   font-weight: bold;
   color: white;
 `;
 
 export const NoticeContent = styled.div`
-  width: 700px;
-  height: 40px;
+  width: 43.75rem;
+  height: 2.5rem;
   display: flex;
   align-items: center;
-  text-indent: 10px;
+  text-indent: 0.625rem;
   color: white;
 `;
 export const NoticeBar = styled.div`
